@@ -233,7 +233,7 @@ public class MyMathArrays {
      * @param p2 the second point
      * @return the L<sub>2</sub> distance between the two points
      * @throws DimensionMismatchException if the array lengths differ.
-     */git config --global http.sslVerify "false"
+     */
     public static double distance(double[] p1, double[] p2)
             throws DimensionMismatchException {
         checkEqualLength(p1, p2);
